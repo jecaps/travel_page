@@ -3,6 +3,13 @@ body {
   margin: 0;
 }
 
+header {
+  padding: 15px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #page-logo a {
   padding: 10px;
   font-family: "Road Rage", sans-serif;
@@ -17,4 +24,12 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  margin-left: 20px;
 }
