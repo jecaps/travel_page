@@ -1,6 +1,16 @@
 #hero {
   height: 800px;
-  background-image: url(https://cdn.pixabay.com/photo/2017/12/15/13/51/polynesia-3021072_960_720.jpg);
+  background-image: url(https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
   background-position: center;
   background-size: cover;
+}
+
+#hero-content {
+  width: 900px;
+  background-color: rgba(51, 47, 47, 0.8);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  padding: 50px;
+  margin: 0 auto;
 }
