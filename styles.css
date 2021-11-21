@@ -16,3 +16,34 @@
   position: relative;
   top: 250px;
 }
+
+#hero-content h1 {
+  color: #f6ae2d;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: "Indie Flower", sans-serif;
+  margin: 0;
+}
+
+#hero-content p {
+  color: #fff8e8;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+#hero-content a {
+  text-decoration: none;
+  background-color: #f6ae2d;
+  padding: 12px 24px;
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+#hero-content a:hover {
+  background-color: #f0c808;
+}
