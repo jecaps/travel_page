@@ -8,16 +8,19 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 #page-logo a {
   padding: 10px;
-  font-family: "Road Rage", sans-serif;
+  font-family: "Caveat", sans-serif;
   font-size: 50px;
-  color: #508991;
+  color: #f1a208;
   text-decoration: none;
   text-transform: uppercase;
-  text-shadow: 1px 1px 2px #000;
+  text-shadow: 2px 2px 4px #000;
 }
 
 ul {
@@ -32,4 +35,18 @@ header ul {
 
 header li {
   margin-left: 20px;
+}
+
+header a {
+  color: #f6ae2d;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 12px 12px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+header a:hover {
+  color: rgb(77, 77, 77);
+  background-color: #f6ae2d;
+  border-radius: 8px;
 }
