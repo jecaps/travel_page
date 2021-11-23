@@ -50,6 +50,7 @@
 
 #highlights {
   padding: 24px;
+  background: linear-gradient(0deg, #e4fde1, #97d8c4);
 }
 
 #highlights h2 {
@@ -88,5 +89,5 @@
 }
 
 .destination strong {
-  color: #00cecb;
+  color: #0bb8b5;
 }
